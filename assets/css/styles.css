@@ -1,0 +1,32 @@
+*,::before, ::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: black;
+    font-family: 'Open Sans ', sans-serif;
+}
+.conteiner{
+    width: 100%;;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    margin: 10px auto;
+
+}
+.conteiner img{
+    width: 100%;
+    height:100%;
+}
+.conteiner div{
+    font-size: 2rem;
+    box-shadow: 5px 8px 12px black;
+    text-align: center;
+    color: black;
+    position: absolute;
+    top:50%;
+    right: 60%;
+    transform: translate(-50%,-50);
+
+}
