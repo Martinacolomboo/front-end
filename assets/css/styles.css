@@ -1,25 +1,183 @@
+<style> @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@300&display=swap'); </style>
+
 *,::before, ::after{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 body{
-    background: black;
-    font-style: "Open Sans";
-    color: white;
+    background-color: rgb(244, 237, 237);
+    font-family: "Open Sans",sans-serif;
+    
 }
-.principal p{
-    font-size: 2rem;
-    box-shadow: 5px 8px 12px black;
+.paginaPrincipal{
+    background-image: url(/assets/img/g.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    background-attachment: fixed;
+    
+
+}
+.logoAp{
+    width: 150px;
+    height: 70px;
+    margin-left: 20px;
+    margin-top: 5px;
+    background-color: black;
+    border-radius: 20px;
+}
+
+.footer{
     text-align: center;
-    color: black;
     position: absolute;
+    bottom: 0;
+    width: 100%;
+    
+
+}
+.footer a{
+    font-size: 20px;
+    color: rgba(31, 14, 209, 0.988);
+    text-decoration: none;
+    padding: 10px;
+    
+    
+}
+#principal {
+    font-family: "Open Sans",sans-serif;
+    text-align: center;
+    color: rgb(5, 5, 5);
+    position: absolute;
+    transform: translate(-50%,-50);
+    
+    font-size: 30px;
+    top:50%;
+    right: 65%;
+   
+
+}
+#principal h2{
+    font-size: 90px;
     top:50%;
     right: 60%;
-    transform: translate(-50%,-50);
 }
+.apellido{
+    color: rgba(31, 14, 209, 0.988);
+}
+
+
+#loginModal{
+    color: black;
+
+}
+.dropdown-menu{
+    border: 2px solid black;
+    border-radius: 8px;  
+    left: 50px;
+    padding: 5px;
+    left: 80px;
+    
+}
+.logo-mio{
+    height: 60px;
+    text-align: center;
+    border-radius: 25px;
+    
+}
+
+.pagina2{
+    background-image: url(/assets/img/fondo2.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+    background-attachment: fixed;
+    color: black;
+}
+
 h1{
+    margin-top: 2px;
+    margin-bottom: 2%;
+    text-align: center;
+    
+    
+    margin-left: 0;
+    margin-right: 0;
+    color:black;
+    
+}
+.col{
+    margin:2%;
+    padding: 3%;
+    text-align: left;
+}
+.pagina2 p{
+    font-size: 20px;
+    text-align: left;
+    margin-left: 10%;
+}
+.pagina2 h2{
+    margin-left: 10%;
+}
+.imag{
+    text-align: center;
+    margin-left: 25%;
+    
+    width: 300px;/* anchura*/
+    height: 420px;
+    border-radius: 5%;
+    box-shadow:0 0 20px 0 rgb(39, 244, 159) ;
+}
+.progress{
+    border: 1px solid black;
+    margin: 2%; 
+}
+.hard p{
+    margin-left: 10%;
+    font-size: 20px;
+}
+.hard h3{
+    margin-left:5%;
+    margin-bottom: 30px;
+}
+.eko{
+   height: 420px;
+
+}
+.proyecto{
+    height: 400px;
+    width: 200px;
+    border-radius: 7%;
+    margin-top: 10px;
+    margin-left: 60px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    
+}
+
+
+
+#experiencia i{
+    margin-top: 10px;
+    margin-left: 10%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    text-align: left; 
+}
+#experiencia button{
+    background-color: white;
+    width: 30px;
+    height: 40px;
+    text-align: center;
+    margin-left: 50px;
+    font-size: 16px;
+}
+.card{
+    width: 300px;
+    height: 620px;
+    margin-left: 30%;
+    margin-right: 10%;
+    background-color: rgba(242, 105, 0, 0.582);
     text-align: center;
 }
-
-

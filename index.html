@@ -11,32 +11,33 @@
     <script src="https://kit.fontawesome.com/68867d2582.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/css/styles.css">
     <!-- para poner los estilos de css en html-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
     <title>Martina Colombo</title>
     
 </head>
-<body>
+<body class="paginaPrincipal">
   <section id="navbar">
-    <nav class="navbar navbar-expand-lg bg-dark">
+    <nav class="navbar navbar-expand-lg data-bs-toggle">
         <div class="container-fluid">
-          <a class="navbar-brand" href="https://argentinaprograma.inti.gob.ar" target="_blank"><img class="logoAp" src="assets/img/logo argentina programa.png" alt="logo-argentina-programa"></a>
-          <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-            <a href="https://github.com/Martinacolomboo" target="_blank"class="btn btn-light" tabindex="-1" role="button" aria-disabled="true"><i class="fa-brands fa-github"></i></a>
+          <a class="navbar-brand" href="https://argentinaprograma.inti.gob.ar" target="_blank"><img class="logoAp" src="assets/img/APLogo-20-20.png" alt="logo-argentina-programa"></a>
+          <div id="todo"class="d-grid gap-2 d-md-flex justify-content-md-end">
+            <a href="https://github.com/Martinacolomboo" class="btn btn-dark" target="_blank" tabindex="-1" role="button" aria-disabled="true"><i class="fa-brands fa-github"></i></a>
             <div class="dropdown"> 
-              <button class="btn btn-light" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <button class="btn btn-dark" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Menu
               </button>
-              <ul class="dropdown-menu">
+              <ul class="dropdown-menu" >
                 <li><button class="dropdown-item" type="button"><a href="index.html">Menu</a> </button></li>
-                <li><button class="dropdown-item" type="button"><a href="pag2.html">Sobre Mi</a></button></li>
-                <li><button class="dropdown-item" type="button"><a href="pag2.html">Educacion</a></button></li>
+                <li><button class="dropdown-item" type="button"><a href="pag2.html">Educación</a></button></li>
+                <li><button class="dropdown-item" type="button"><a href="pag2.html">Acerca de Mi</a></button></li>
                 <li><button class="dropdown-item" type="button"><a href="pag2.html">Hard & Skills</a></button></li>
                 <li><button class="dropdown-item" type="button"><a href="pag2.html">Proyectos</a></button></li>
               </ul>
             
               <!--modal-->
               <!-- Button trigger modal -->
-             <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#loginModal">Login
-              <!--<i class="fa-solid fa-lock"></i>-->
+             <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#loginModal">
+              Login
               </button>
             <!-- Modal Esta abajo-->
           </div>
@@ -44,48 +45,29 @@
         </div>
       </nav>
   </section>
-  <div class="principal">
-    <a href="pag2.html"><img src="assets/img/grey.jpg" class="img-fluid" alt="imagenGato" style="height:100%; width: 100%" ></a>
-    <p> Aprieta la imagen para continuar</p>
+  
+  <div id="principal">
+    <h2><strong>Martina</strong></h2>
+      
+    <h2><strong class="apellido">Colombo</strong></h2>
+    <br>
+    Full Stack Developer Jr
+      
+  </div>
+  <div class="footer">
+    <strong>
+    <a href="pag2.html">Acerca de Mi/ </a>
+    <a href="pag2.html">Educación/ </a>
+    <a href="pag2.html">Hard & Skills/ </a>
+    <a href="pag2.html">Proyectos</a> 
+    </strong>
   </div>
   <!--Modal login-->
-  <div class="modal fade" id="loginModal" tabindex="-1"  aria-labelledby="loginModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title">Iniciar Secion</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          <form>
-            <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label">Email address</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-            </div>
-            <div class="mb-3">
-              <label for="exampleInputPassword1" class="form-label">Password</label>
-              <input type="password" class="form-control" id="exampleInputPassword1">
-              <div id="passwordHelpBlock" class="form-text">
-                Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special characters, or emoji.
-              </div>
-            </div>
-            <div class="mb-3 form-check">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label" for="exampleCheck1">Check me out</label>
-            </div>
-          </form>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-          <button type="button" class="btn btn-primary">Guardar</button>
-        </div>
-      </div>
-    </div>
+ 
   </div>
   <!--pongo el boostrap de html-->
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-      
+   
 </body>
 </html>
